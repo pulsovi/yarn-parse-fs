@@ -1,0 +1,23 @@
+{
+  "name": "yarn-parse-fs",
+  "version": "1.0.0",
+  "description": "wrap yarn and able it to parse path arguments",
+  "main": "index.js",
+  "repository": "https://github.com/pulsovi/yarn-parse-fs.git",
+  "author": "David GABISON <david.gabison@outlook.com>",
+  "license": "MIT",
+  "bin": {
+    "yarn-parse-fs": "bin/yarn.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "pulsovi/node"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-pulsovi": "https://github.com/pulsovi/eslint-config-pulsovi.git"
+  },
+  "dependencies": {
+    "yarn": "^1.22.10"
+  }
+}
